@@ -1,0 +1,5 @@
+*.o
+*.a
+*.bin
+*.out
+*.bin_rep
