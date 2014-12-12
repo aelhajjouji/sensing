@@ -86,11 +86,6 @@ static void ICACHE_FLASH_ATTR tcpclient_recon_cb(void *arg, sint8 errType) {
 }
 
 
-static void ICACHE_FLASH_ATTR readserial(){
-
-
-}
-
 
 
 //Main code function
