@@ -88,8 +88,8 @@ static void ICACHE_FLASH_ATTR loop() {
 
 //Init function
 void user_init(void) {
-	char ssid[32] = "freebox_GGHTOO";
-	char password[64] = "iizxabpfiizxabpfiizxabpf";
+	char ssid[32] = SSID;
+	char password[64] = PASSWORD;
 	struct station_config stationConf;
 //Set station mode
 	wifi_set_opmode( STATION_MODE);
